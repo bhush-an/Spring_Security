@@ -1,0 +1,11 @@
+
+=====================================================================================
+Below scenarios used to throw 403 FORBIDDEN Error with empty response
+=====================================================================================
+
+1. Invalid username or password  : BadCredentialsException : 401 Unauthorized
+2. Accessing restricted resource : AccessDeniedException   : 403 Forbidden
+3. Tampering with JWT            : SignatureException      : 403 Forbidden
+4. Expired JWT                   : ExpiredJWTException     : 403 Forbidden
+
+======================================================================================
